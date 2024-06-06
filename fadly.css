@@ -1,5 +1,4 @@
 *{
-    color: black;
     padding:0;
     margin: 0;
     box-sizing: border-box;
@@ -7,54 +6,85 @@
     font-style: normal;
 
 }
+html{
+    scroll-behavior: smooth;
+}
+
 
 .navbar{
     width: 100%;
     min-height: 100vh;
-    background-image: url(gambar/island-moon-body-of-3840x2160-15995.jpg);
+    background-image: url(gambar/pexels-eberhardgross-640809.jpg);
     background-position: center;
     background-size: cover;
 }
 
 nav{
-    top: 1% ;
-    margin-top: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
+    top: 0;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    position: fixed;
+    background-color: #e2e4e1;
 }
 
 
-
-.content{
-    margin-left: 15%;
-    margin-top: 11%;
-}
-
-.nama{
-    font-weight:bold ;
-    font-size: 600%;
+.nihao{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
     color: black;
-    margin: 1%;
+    text-decoration: none;
+}
+
+
+.pembuka{
+    font-weight:100 ;
+    font-size: 400%;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
 
 
 }
 .nim{
     font-size: 130%;
-    margin: 1%;
+    padding-left: 3%;
+    padding-top: 1%;
 
 }
+
+
 
 .foto{
-    width: 24%;
+    width: 45%;
     position: absolute;
-    right: 15%;
-    top: 25%;
+    padding-left: 15%;
+    padding-top: 17%;
+    padding-bottom: 6%;
+    transition:  600ms ease-in-out;
 
 }
+.foto:hover{
+    transform: scale(1.35);
+}
+
+.isipropil{
+    padding-left: 55%;
+    padding-top: 25%;
+    color: #9e5f1e;
+    font-size: 150%;
+}
+.subisipropil{
+    color: black;
+    padding-right: 15%;
+    text-align: justify;
+}
+
 .kucing{
     width: 3%;
 }
@@ -69,13 +99,10 @@ nav ul li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
+    color: black;
     
 }
 
-.materi{
-    background-color: #8997b4;
-
-}
     
 .paragraf{
     margin-left: 10%;
@@ -86,11 +113,7 @@ nav ul li a {
     margin-right: 59%;
 }
 
-.materi{
-    background-color: white;
 
-
-}
     
 .tekx{
     text-align: center;
@@ -103,13 +126,9 @@ nav ul li a {
     margin-right: 59%;
 }
 
-.submateri{
-    background-color: #8997b4;
+
+
+.fotomateri{
+    width: 56%;
 }
-
-.isimateri{
-    padding-left: 6%;
-
-}
-
 
